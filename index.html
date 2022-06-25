@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Color Picker</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <header class="upper-section">
+                <form action="#" id="form-color" class="form-color">
+                    <input type="color" id="select-color">
+                    <select name="get-scheme" id="get-scheme">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                    </select>
+                    <button id="get-color-scheme-btn">Get color scheme</button>
+                </form>
+            </header>
+            <main class="pallete">
+                <div id="color1" class="color1"></div>
+                <div id="color2" class="color2"></div>
+                <div id="color3" class="color3"></div>
+                <div id="color4" class="color4"></div>
+                <div id="color5" class="color5"></div>
+            </main>
+            <div class="color-name" id="color-name">
+                <div id="name1" class="name1">hex1</div>
+                <div id="name2" class="name2">hex1</div>
+                <div id="name3" class="name3">hex1</div>
+                <div id="name4" class="name4">hex1</div>
+                <div id="name5" class="name5">hex1</div>
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
