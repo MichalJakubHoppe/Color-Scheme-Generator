@@ -2,6 +2,8 @@
 
 A solo project based on Scrimba's ideas for projects.
 
+Live: https://michaljakubhoppe.github.io/Color-Scheme-Generator/
+
 tech stack: HTML, CSS and vanilla JS.
 
 1. Grab a color you like
